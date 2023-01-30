@@ -6,7 +6,9 @@ export default createBoard({
     name: '09 Grid Layout',
     Board: () => <Lesson09 />,
     environmentProps: {
-        windowWidth: 840,
-        windowHeight: 630,
+        windowWidth: 1312,
+        windowHeight: 765,
+        canvasWidth: 956,
+        canvasHeight: 636,
     },
 });

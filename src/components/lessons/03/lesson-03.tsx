@@ -15,9 +15,11 @@ export const Lesson03: React.FC = () => {
         <div className={styles.root}>
             <Task />
             <div className={styles.playground}>
-                <div id="top" className={`${styles.eye} ${styles.top}`}></div>
-                <div id="bottom" className={`${styles.eye} ${styles.bottom}`}>
+                <div id="top" className={`${styles.eye} ${styles.top}`}>
                     <Pupil color={'hotRed'} />
+                </div>
+                <div id="bottom" className={`${styles.eye} ${styles.bottom}`}>
+                    <Pupil />
                 </div>
                 <ConfettiFx
                     maxParticles={400}

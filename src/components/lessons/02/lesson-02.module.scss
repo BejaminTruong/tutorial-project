@@ -42,6 +42,14 @@
     .box02 {
         border-radius: $box-border-radius-rounded;
         width: 180px;
+        background-color: $tag-purple;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        background-attachment: scroll;
+        background-origin: padding-box;
+        background-clip: border-box;
     }
 
     .box03 {

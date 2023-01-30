@@ -22,14 +22,14 @@ export const Task02: React.FC = () => {
                 </li>
                 <li>
                     {' '}
-                    To see the structure of this component, hover over{' '}
-                    <TaskSymbol name="component" />
-                    <b>Lesson02</b> and <TaskSymbol name="edit" /> edit it.
+                    Take a look at the different elements of the component to
+                    understand its structure.
                 </li>
                 <li>
                     {' '}
-                    Take a look at the different elements of the component to
-                    understand its structure.
+                    To see the structure of this component, hover over{' '}
+                    <TaskSymbol name="component" />
+                    <b>Lesson02</b> and <TaskSymbol name="edit" /> edit it.
                 </li>
                 <li>
                     {' '}

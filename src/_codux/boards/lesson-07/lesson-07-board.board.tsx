@@ -6,7 +6,8 @@ export default createBoard({
     name: '07 Components',
     Board: () => <Lesson07 />,
     environmentProps: {
-        windowWidth: 840,
+        windowWidth: 1112,
         windowHeight: 630,
+        canvasWidth: 1698,
     },
 });

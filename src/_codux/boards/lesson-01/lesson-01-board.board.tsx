@@ -6,7 +6,7 @@ export default createBoard({
     name: '01 Lets Start!',
     Board: () => <Lesson01 />,
     environmentProps: {
-        windowWidth: 840,
-        windowHeight: 630,
+        windowWidth: 836,
+        windowHeight: 625,
     },
 });

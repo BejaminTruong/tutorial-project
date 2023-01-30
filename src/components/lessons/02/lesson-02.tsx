@@ -17,14 +17,15 @@ export const Lesson02: React.FC = () => {
             <div className={styles.playground} id="playground">
                 <div className={styles.row}>
                     <Box
-                        text={'1'}
-                        className={styles.box01}
-                        color={'hotPink'}
+                        text={'7'}
+                        className={styles.box07}
+                        color={'orangeRed'}
                     />
+                    <Box text={'8'} className={styles.box08} color={'hotRed'} />
                     <Box
-                        text={'2'}
-                        className={styles.box02}
-                        color={'turquoiseGreen'}
+                        text={'6'}
+                        className={styles.box06}
+                        color={'richGreen'}
                     />
                 </div>
                 <div className={styles.row}>
@@ -36,16 +37,15 @@ export const Lesson02: React.FC = () => {
                 </div>
                 <div className={styles.row}>
                     <Box
-                        text={'6'}
-                        className={styles.box06}
-                        color={'richGreen'}
+                        text={'2'}
+                        className={styles.box02}
+                        color={'turquoiseGreen'}
                     />
                     <Box
-                        text={'7'}
-                        className={styles.box07}
-                        color={'orangeRed'}
+                        text={'1'}
+                        className={styles.box01}
+                        color={'hotPink'}
                     />
-                    <Box text={'8'} className={styles.box08} color={'hotRed'} />
                 </div>
                 <div className={styles.row}>
                     <Box

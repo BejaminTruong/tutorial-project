@@ -27,6 +27,8 @@
     }
     &.center {
         justify-content: center;
+        align-content: center;
+        width: 350px;
     }
     &.left {
         justify-content: flex-start;
